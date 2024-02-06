@@ -1,0 +1,11 @@
+
+
+.about {
+    background-color: black;
+    padding-top: 12%;
+    min-height: 100vh;
+    &__body {
+        background-color: white;
+        padding: 20px;
+    }
+}

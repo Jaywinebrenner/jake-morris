@@ -1,0 +1,28 @@
+
+
+.navigation {
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 10;
+    width: 50%;
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        transition: .3s;
+        padding-right: 50px;
+        &:hover {
+            opacity: .4;
+        }
+    }
+    a.active {
+        text-decoration: underline;
+    }
+}
