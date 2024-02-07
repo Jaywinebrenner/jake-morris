@@ -10,7 +10,7 @@ const Services = () => {
         <section className="services">
             <div className="container">
                 <div className='card'>
-                    <h1>I will drum for you.</h1>
+                    <h1>I WILL DRUM 4 U</h1>
                     <div className='card-wrapper'>
                         <div className='left'>
                             <p>I have a studio with recording gear. Send me your tracks, we can discuss the drum vibe / direction and I'll drum on them.</p>
