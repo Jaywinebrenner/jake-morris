@@ -110,6 +110,7 @@ li {
 }
 
 canvas {
+    transform: translatex(-21px);
    @media(max-width: 550px){
     width: 400px!important;
    }
