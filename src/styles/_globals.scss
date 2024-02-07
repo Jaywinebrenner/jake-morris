@@ -109,3 +109,8 @@ li {
     margin-top: 0;
 }
 
+canvas {
+   @media(max-width: 550px){
+    width: 400px!important;
+   }
+}
