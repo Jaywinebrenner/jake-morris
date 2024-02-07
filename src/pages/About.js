@@ -7,7 +7,7 @@ const About = () => {
         <section className="about">
             <div className="container">
                 <div className="about__body">
-                    <p>Jake Morris is a drummer, vocalist and multi-instrumentalist living in Portland, OR.</p>
+                    <p className="margin-top-zero"><span className="jake">Jake Morris</span> is a drummer, vocalist and multi-instrumentalist living in Portland, OR.</p>
 
                     <p>Since 2011 he has been the drummer for Stephen Malkmus and The Jicks </p>
 

@@ -15,6 +15,9 @@ function Navigation() {
             <NavLink to="/work" className="img-link-wrapper" activeclassname="active">
                 WORK
             </NavLink>
+            <NavLink to="/services" className="img-link-wrapper" activeclassname="active">
+                SERVICES
+            </NavLink>
             <NavLink to="/contact" className="img-link-wrapper" activeclassname="active">
                 CONTACT
             </NavLink>

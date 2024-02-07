@@ -2,10 +2,19 @@
 
 .about {
     background-color: black;
-    padding-top: 12%;
+    padding-top: 6%;
     min-height: 100vh;
     &__body {
         background-color: white;
         padding: 20px;
+        h1 {
+            margin-top: 0;
+        }
+        .jake {
+            font-size: 5rem;
+            font-weight: 600;
+            margin-right: 8px;
+
+        }
     }
 }
