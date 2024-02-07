@@ -12,7 +12,7 @@ function Navigation() {
             <NavLink to="/about" className="img-link-wrapper" activeclassname="active">
                 ABOUT
             </NavLink>
-            <NavLink to="/work" className="img-link-wrapper" activeclassname="active">
+            <NavLink to="/press" className="img-link-wrapper" activeclassname="active">
                 WORK
             </NavLink>
             <NavLink to="/contact" className="img-link-wrapper" activeclassname="active">
