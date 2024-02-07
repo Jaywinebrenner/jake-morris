@@ -9,9 +9,7 @@
     }
     h1 {
         margin: 0;
-        @media(max-width:800px){
-            font-size: 3.7rem;
-        }
+
     }
     background-color: black;
     padding-top: 6%;
@@ -63,6 +61,9 @@
             @media (max-width: 1000px) {
               flex-basis: 100%;
             }
+            @media (max-width: 800px) {
+                margin-bottom: 0;
+              }
           }
           
           .video-wrapper {

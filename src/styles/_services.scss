@@ -13,6 +13,9 @@
     }
     h1 {
         margin: 0;
+        @media(max-width: 800px){
+            margin-bottom: 32px;
+        }
     }
     .card {
         padding: 20px;
@@ -25,10 +28,19 @@
             display: flex;
             margin-top: 32px;
             gap: 42px;
+            @media(max-width: 800px){
+                display: inline;
+            }
             .left {
                 p:first-child {
 
                     margin-top: 0;
+                }
+                p:last-child {
+                    @media(max-width: 800px){
+                        margin-bottom: 32px;
+                    }
+
                 }
             }
             img {

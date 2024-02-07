@@ -4,6 +4,9 @@
     background-color: black;
     padding-top: 6%;
     min-height: 100vh;
+    .container {
+        padding-bottom: 32px;
+    }
     &__body {
         background-color: white;
         padding: 20px;

@@ -72,6 +72,10 @@ html {
 
   h1 {
     font-size: 5rem;
+    @media(max-width: 800px){
+        font-size: 3rem;
+
+    }
   }
   p, a {
     font-size: 1.5rem;
@@ -85,6 +89,17 @@ html {
   }
 a:hover {
 
+}
+
+p, a {
+    @media(max-width: 800px){
+        font-size: 18px;
+    }
+}
+h2 {
+    @media(max-width: 600px){
+        font-size: 18px;
+    }
 }
 
 li {
