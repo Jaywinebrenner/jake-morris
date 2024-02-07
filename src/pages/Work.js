@@ -5,6 +5,16 @@ import React, {useEffect} from 'react';
 
 const Work = () => {
     console.log("data", data);   
+    const videoIds = [
+        'lPur9ni9XZ4',
+        '6hUWGU8EbDc',
+        'EIInUImFsFk',
+        'pW6c2-RaFi8',
+        'DjPDkm1TUE4',
+        'nDfZr9QlW9o',
+        'tNgVIRQz8BA',
+        'EDv0gj9P6lU'
+      ];
     
     
     useEffect(() => {
@@ -55,6 +65,41 @@ const Work = () => {
                             }
                         </ul>
                     </div>
+                </div>
+
+                <div className='tv-wrapper'>
+                    <h1>JMTV</h1>
+                    <div className="video-container">
+      <div className="column">
+        {videoIds.slice(0, Math.ceil(videoIds.length / 2)).map(videoId => (
+          <div key={videoId} className="video-wrapper">
+            <iframe
+              title={`YouTube Video ${videoId}`}
+              width="560"
+              height="315"
+              src={`https://www.youtube.com/embed/${videoId}`}
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ))}
+      </div>
+      <div className="column">
+        {videoIds.slice(Math.ceil(videoIds.length / 2)).map(videoId => (
+          <div key={videoId} className="video-wrapper">
+            <iframe
+              title={`YouTube Video ${videoId}`}
+              width="560"
+              height="315"
+              src={`https://www.youtube.com/embed/${videoId}`}
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ))}
+      </div>
+    </div>
+
                 </div>
 
             </div>
