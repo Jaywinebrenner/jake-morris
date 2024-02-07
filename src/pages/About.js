@@ -15,7 +15,7 @@ const About = () => {
 
                     <p>Jake has toured with various bands since 2001 including: The Joggers, French Kicks, Grails, and The Shaky Hands. He has appeared on The Late Show With David Letterman, Late Night with Jimmy Fallon, and Last Call with Carson Daly.</p>
 
-                    <p>Jake proudly plays <a target="_blank" href="http://www.candccustomdrums.com/artist/jake-morris/">C and C Custom Drums</a></p>
+                    <p>Jake proudly plays <a target="_blank" href="https://www.candcdrumsusa.com/artists-li-ri">C and C Custom Drums</a></p>
                 </div>
 
             </div>
