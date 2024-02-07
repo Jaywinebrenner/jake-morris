@@ -16,6 +16,7 @@
     h1 {
         margin: 0;
     }
+
     .card-top {
         background-color: white;
         padding: 20px;
@@ -24,8 +25,8 @@
         width: 50%;
         justify-content: space-around;
         align-items: center;
-        @media(max-width: 800px){
-            margin-top: 8%;
+        @media(max-width:700px){
+            margin-top: 127px;
         }
         @media(max-width: 1100px){
             width: 100%;

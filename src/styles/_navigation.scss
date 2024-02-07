@@ -14,14 +14,17 @@
     @media(max-width: 600px){
         margin-left: 0;
         width: 100%;
+
         a {
             padding-right: 16px!important;
+            display: block;
         }
     }
-    @media(max-width: 500px){
+    @media(max-width: 800px){
         a {
             padding-right: 8px!important;
-            font-size: 15px!important;
+            // font-size: 15px!important;
+            margin-bottom: 4px;
         }
     }
 
@@ -42,8 +45,9 @@
 }
 
 .navigation.home-page {
-    width: 50%;
+    // width: 50%;
     margin-left: 9.5%;
+    background-color: transparent!important;
     @media(max-width: 600px){
         margin-left: 0;
         width: 100%;
