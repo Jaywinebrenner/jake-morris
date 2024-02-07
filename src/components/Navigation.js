@@ -1,26 +1,30 @@
 import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom'; // Import NavLink and useLocation
+import { NavLink, useLocation } from 'react-router-dom'; 
 
 function Navigation() {
-    const location = useLocation(); // Get the current location
+    const location = useLocation(); 
+    const isHomePage = location.pathname === '/';
 
     return (
-        <section className="navigation container">
-            <NavLink exact to="/" className="img-link-wrapper" activeclassname="active">
-                HOME
-            </NavLink>
-            <NavLink to="/about" className="img-link-wrapper" activeclassname="active">
-                ABOUT
-            </NavLink>
-            <NavLink to="/work" className="img-link-wrapper" activeclassname="active">
-                WORK
-            </NavLink>
-            <NavLink to="/services" className="img-link-wrapper" activeclassname="active">
-                SERVICES
-            </NavLink>
-            <NavLink to="/contact" className="img-link-wrapper" activeclassname="active">
-                CONTACT
-            </NavLink>
+        <section className={`navigation ${isHomePage ? 'home-page' : ''}`}>
+            <div className='container'>
+
+                <NavLink exact to="/" className="img-link-wrapper" activeClassName="active">
+                    HOME
+                </NavLink>
+                <NavLink to="/about" className="img-link-wrapper" activeClassName="active">
+                    ABOUT
+                </NavLink>
+                <NavLink to="/work" className="img-link-wrapper" activeClassName="active">
+                    WORK
+                </NavLink>
+                <NavLink to="/services" className="img-link-wrapper" activeClassName="active">
+                    SERVICES
+                </NavLink>
+                <NavLink to="/contact" className="img-link-wrapper" activeClassName="active">
+                    CONTACT
+                </NavLink>
+            </div>
         </section>
     );
 }
