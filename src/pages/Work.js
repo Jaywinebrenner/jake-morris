@@ -26,7 +26,7 @@ const Work = () => {
         <section className="work">
             <div className="container">
                 <div className="work__wrapper">
-                    <div className='card'>
+                    <div className='card-3d'>
                         <Scene/>
                     </div>
                     <div className="card">

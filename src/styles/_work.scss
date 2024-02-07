@@ -9,6 +9,9 @@
     }
     h1 {
         margin: 0;
+        @media(max-width:800px){
+            font-size: 3.7rem;
+        }
     }
     background-color: black;
     padding-top: 6%;
@@ -23,6 +26,15 @@
         }
         @media(max-width: 800px){
             margin-top: 8%;
+        }
+        .card-3d {
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            min-height: 400px!important;
+            @media(max-width: 800px){
+                min-height: 400px!important;
+            }
         }
         .card {
             padding: 20px;
