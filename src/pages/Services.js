@@ -1,8 +1,4 @@
 
-import data from '../utils/data';
-import Scene from '../components/Scene';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Services = () => {
 
@@ -19,10 +15,6 @@ const Services = () => {
                             <p>I'll send you the tracks and voila! Mid tier indie cred is sure to follow.</p>
                             <p>Give me a shout:</p>
                             <h2>jakemorrisdrums@gmail.com</h2>
-                            <a target="_blank" href="https://www.instagram.com/drumbschool/?hl=en">
-                                <FontAwesomeIcon size="2x" icon={faInstagram} />
-                            </a>
-
                         </div>
     
                         <div className='right'>
