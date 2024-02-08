@@ -26,10 +26,12 @@
         }
         .logo-wrapper {
             position: relative;
+
             h1 {
                 font-family: $jake;
-                color: rgb(3, 252, 207);
+                color: $green;
                 position: absolute;
+                margin-left: 15%;
                 @media(max-width:700px){
                     margin-top: 157px;
                 }
