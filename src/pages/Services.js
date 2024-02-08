@@ -1,7 +1,8 @@
 
 import data from '../utils/data';
 import Scene from '../components/Scene';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Services = () => {
 
@@ -13,11 +14,15 @@ const Services = () => {
                     <h1>I WILL DRUM 4 U</h1>
                     <div className='card-wrapper'>
                         <div className='left'>
-                            <p>I have a studio with recording gear. Send me your tracks, we can discuss the drum vibe / direction and I'll drum on them.</p>
-                            <p>I'll send you the tracks and voila!</p>
-                            <p>Please email for rates or questions or anything else!</p>
-                            <p>jakemorrisdrums@gmail.com</p>
-                            <p>And Jake, you will write this section much better</p>
+                            <p>Now you can get the best fills in the biz on your record, home recording project or car commercial you're making for your Uncles Used Lot!</p>
+                            <p> Just email me for rates and general inquiries and if the vibes are right...</p>
+                            <p>I'll send you the tracks and voila! Mid tier indie cred is sure to follow.</p>
+                            <p>Give me a shout:</p>
+                            <h2>jakemorrisdrums@gmail.com</h2>
+                            <a target="_blank" href="https://www.instagram.com/drumbschool/?hl=en">
+                                <FontAwesomeIcon size="2x" icon={faInstagram} />
+                            </a>
+
                         </div>
     
                         <div className='right'>
