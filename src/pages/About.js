@@ -13,9 +13,10 @@ const About = () => {
 
                     <p>Along with Stephen Malkmus and The Jicks, Jake also writes, records and performs with his own band <a target="_blank" href="https://streetnights.bandcamp.com/music">Street Nights</a> and instrumental “micro-prog” trio <a target="_blank" href="https://blesstchest.bandcamp.com/">Blesst Chest.</a> </p>
 
-                    <p>Jake has toured all over the world with various bands since 2001 including:  <a target="_blank" href="https://open.spotify.com/artist/5gvPjkbnAEFeDYUhHbFqTx">The Joggers</a>,  <a target="_blank" href="https://open.spotify.com/artist/2Jj04JcXjjnE99c4225LHF">French Kicks</a>, <a target="_blank" href="https://grails.bandcamp.com/">Grails</a>, <a target="_blank" href="https://open.spotify.com/artist/1rTxCX0gbH7ULTkSmCYqmx">The Shaky Hands</a> and <a target="_blank" href="https://oneelevenheavy.com/">One Eleven Heavy</a>. He has appeared on The Late Show With David Letterman, Late Night with Jimmy Fallon, and Last Call with Carson Daly.</p>
+                    <p style={{marginBottom: "42px"}}>Jake has toured all over the world with various bands since 2001 including:  <a target="_blank" href="https://open.spotify.com/artist/5gvPjkbnAEFeDYUhHbFqTx">The Joggers</a>,  <a target="_blank" href="https://open.spotify.com/artist/2Jj04JcXjjnE99c4225LHF">French Kicks</a>, <a target="_blank" href="https://grails.bandcamp.com/">Grails</a>, <a target="_blank" href="https://open.spotify.com/artist/1rTxCX0gbH7ULTkSmCYqmx">The Shaky Hands</a> and <a target="_blank" href="https://oneelevenheavy.com/">One Eleven Heavy</a>. He has appeared on The Late Show With David Letterman, Late Night with Jimmy Fallon, Last Call with Carson Daly and has been featured in Modern Drummer Magazine.</p>
+                    <a className="modern" href="https://www.moderndrummer.com/article-tags/jake-morris/">Modern Drummer Magazine</a>
 
-                    <p>Jake proudly plays <a target="_blank" href="https://www.candcdrumsusa.com/artists-li-ri">C and C Custom Drums</a></p>
+                    <p style={{marginTop: "42px"}}>Jake proudly plays <a target="_blank" href="https://www.candcdrumsusa.com/artists-li-ri">C and C Custom Drums</a></p>
                 </div>
 
             </div>
