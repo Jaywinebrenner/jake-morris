@@ -10,7 +10,7 @@ const Services = () => {
                     <h1>I WILL DRUM 4 U</h1>
                     <div className='card-wrapper'>
                         <div className='left'>
-                            <p>Now you can get the best fills in the biz on your record, home recording project or car commercial you're making for your uncle's used car Lot!</p>
+                            <p>Now you can get the best fills in the biz on your record, home recording project or car commercial you're making for your uncle's used car lot!</p>
                             <p> Just email me for rates and general inquiries and if the vibes are right...</p>
                             <p>I'll send you the tracks and voila! Mid tier indie cred is sure to follow.</p>
                             <p>Give me a shout:</p>
