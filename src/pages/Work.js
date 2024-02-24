@@ -13,8 +13,12 @@ const Work = () => {
         'DjPDkm1TUE4',
         'nDfZr9QlW9o',
         'tNgVIRQz8BA',
-        'EDv0gj9P6lU'
-      ];
+        'EDv0gj9P6lU',
+        'Z4RexZ_06S0',
+        'zDyGHjefucw',
+        'Je10_vbF2-c'
+    ];
+    
     
     
     useEffect(() => {
