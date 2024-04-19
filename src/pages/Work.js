@@ -30,6 +30,9 @@ const Work = () => {
         <section className="work">
             <div className="container">
                 <div className="work__wrapper">
+                    <div className='drums-mobi'>
+                        <img src="/drums-mobi.jpg "/>
+                    </div>
                     <div className='card-3d'>
                         <Scene/>
                     </div>
