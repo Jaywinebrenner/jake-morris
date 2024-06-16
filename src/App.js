@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { emojiCursor } from 'cursor-effects';
 import { useEffect } from 'react';
+import UpcomingShows from './pages/UpcomingShows';
 
 function App() {
   // useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/upcoming-shows" element={<UpcomingShows />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

@@ -21,6 +21,9 @@ function Navigation() {
                 <NavLink to="/services" className="img-link-wrapper" activeClassName="active">
                     I WILL DRUM 4 U
                 </NavLink>
+                <NavLink to="/upcoming-shows" className="img-link-wrapper" activeClassName="active">
+                    UPCOMING SHOWS
+                </NavLink>
                 <NavLink to="/contact" className="img-link-wrapper" activeClassName="active">
                     CONTACT
                 </NavLink>

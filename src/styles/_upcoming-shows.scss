@@ -1,0 +1,20 @@
+
+
+
+.upcoming-shows {
+    padding-bottom: 80px;
+    background-color: black;
+    padding-top: 6%;
+    min-height: 100vh;
+    p, h2, a {
+        // color: white;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    .show {
+        background-color: white;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+}
