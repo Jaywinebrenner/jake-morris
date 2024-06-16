@@ -17,4 +17,18 @@
         padding: 30px;
         margin-bottom: 20px;
     }
+    a {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 8px 10px;
+        margin-top: 12px;
+        transition: .3s;
+        border: 2px solid black;
+        &:hover {
+            opacity: 1;
+            background-color: white;
+            color: black;
+        }
+    }
 }
