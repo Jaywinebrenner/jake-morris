@@ -5,17 +5,6 @@ const UpcomingShows = () => {
         <div className="upcoming-shows">
             <div className="container">
                 <div className="show-wrapper">
-                <div class="show">
-                    <h2>West Valley Wolfpack Band opening for Dubais+Weird Fiction</h2>
-                    <p>Thurs June 20 at Swan Dive</p>
-                    <a target="_blank" href="https://www.eventbrite.com/checkout-external?eid=914892416847">Get Tickets</a>
-                </div>
-
-                <div class="show">
-                    <h2>Blesst Chest/Diminished Men/Descending Pharoahs</h2>
-                    <p>Friday June 21st at Swan Dive</p>
-                    <a target="_blank" href="https://www.eventbrite.com/checkout-external?eid=905799198787">Get Tickets</a>
-                </div>
 
                 <div class="show">
                     <h2>Lonely god presents:</h2>
