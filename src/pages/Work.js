@@ -6,6 +6,8 @@ import React, {useEffect} from 'react';
 const Work = () => {
     console.log("data", data);   
     const videoIds = [
+        '5n89sjiImHs',
+        't6Bd5F9nFvc',
         'lPur9ni9XZ4',
         '6hUWGU8EbDc',
         'EIInUImFsFk',
