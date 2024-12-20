@@ -1,16 +1,17 @@
 const data = {
     toursLive: [
-        "The Joggers all 2002-2011",
-        "French Kicks Trial of The Century tour 2004",
-        "Pseudosix US tour 2007",
-        "Grails/Silver Apples Tour 2009",
-        "Shaky Hands Lunglight and Let It Die Us/Europe 2008-2010",
-        "Stephen Malkmus & The Jicks Mirror Traffic/Wig Out At Jagbags/Sparkle Hard US/Eu/Japan/Oz/Nz/SA",
-        "Street Nights 2011-current US/Europe",
-        "Blesst Chest 2013-current US",
+        "Stephen Malkmus & Trad Tech 2021/2022 US/Mexico",
         "One Eleven Heavy 2019/2023 US/Europe",
-        "Stephen Malkmus & Trad Tech 2021/2022 US/Mexico"
+        "Blesst Chest 2013-current US",
+        "Street Nights 2011-current US/Europe",
+        "The Joggers all 2002-2011",
+        "Stephen Malkmus & The Jicks Mirror Traffic/Wig Out At Jagbags/Sparkle Hard US/Eu/Japan/Oz/Nz/SA",
+        "Shaky Hands Lunglight and Let It Die Us/Europe 2008-2010",
+        "Grails/Silver Apples Tour 2009",
+        "Pseudosix US tour 2007",
+        "French Kicks Trial of The Century tour 2004",
     ],
+    
     discography: [
         "Street Nights: The Long Goodbye (community guidelines) 2024",
         "Street Nights: Human Condition (Friendship) 2020",
@@ -29,11 +30,12 @@ const data = {
     ],
     
     tv: [
-        "French Kicks/ Houseband: Last Call with Carson Daly 2004",
-        "Stephen Malkmus and The Jicks: Late Night with Jimmy Fallon 2011",
+        "Stephen Malkmus and The Jicks: The Late Show with David Letterman 2014",
         "Stephen Malkmus and The Jicks: Late Night with Jimmy Fallon 2014",
-        "Stephen Malkmus and The Jicks: The Late Show with David Letterman 2014"
-    ]
+        "Stephen Malkmus and The Jicks: Late Night with Jimmy Fallon 2011",
+        "French Kicks/ Houseband: Last Call with Carson Daly 2004"
+    ],
+    
 };
 
 export default data;
