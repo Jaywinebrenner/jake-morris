@@ -13,20 +13,21 @@ const data = {
     ],
     discography: [
         "Street Nights: The Long Goodbye (community guidelines) 2024",
-        "The Joggers: s/t (birds) 2002",
-        "The Joggers: Solid Guild -(startime )2003",
-        "The Joggers :With A Cape And A Cane (Startime/Vagrant)2005",
-        "Pseudosix s/t  (Partisan )2007",
-        "Shaky Hands: Let It Die (Kill Rock Stars )2009",
-        "Stephen Malkmus and The Jicks/LA Guns split (Matador )2012",
-        "Street Nights: You Have My Word (Friendship) 2013",
-        "Stephen Malkmus and The Jicks: Wig Out At Jagbags (Matador) 2014",
-        "Day of The Dead (4AD) 2016",
-        "Blesst Chest: Wish We Were There (Friendship) 2016",
-        "Stephen Malkmus and The Jicks: Sparkle Hard (Matador) 2018",
+        "Street Nights: Human Condition (Friendship) 2020",
         "Blesst Chest: Casual Corner (Friendship) 2018",
-        "Street Nights: Human Condition (Friendship) 2020"
+        "Stephen Malkmus and The Jicks: Sparkle Hard (Matador) 2018",
+        "Blesst Chest: Wish We Were There (Friendship) 2016",
+        "Day of The Dead (4AD) 2016",
+        "Stephen Malkmus and The Jicks: Wig Out At Jagbags (Matador) 2014",
+        "Street Nights: You Have My Word (Friendship) 2013",
+        "Stephen Malkmus and The Jicks/LA Guns split (Matador) 2012",
+        "Shaky Hands: Let It Die (Kill Rock Stars )2009",
+        "Pseudosix s/t  (Partisan )2007",
+        "The Joggers :With A Cape And A Cane (Startime/Vagrant)2005",
+        "The Joggers: Solid Guild -(startime )2003",
+        "The Joggers: s/t (birds) 2002"
     ],
+    
     tv: [
         "French Kicks/ Houseband: Last Call with Carson Daly 2004",
         "Stephen Malkmus and The Jicks: Late Night with Jimmy Fallon 2011",
