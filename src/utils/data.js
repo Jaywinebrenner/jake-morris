@@ -12,7 +12,7 @@ const data = {
         "Stephen Malkmus & Trad Tech 2021/2022 US/Mexico"
     ],
     discography: [
-        "Street Nights: The Long Goodbye (Community Guidelines) 2024",
+        "Street Nights: The Long Goodbye (community guidelines) 2024",
         "The Joggers: s/t (birds) 2002",
         "The Joggers: Solid Guild -(startime )2003",
         "The Joggers :With A Cape And A Cane (Startime/Vagrant)2005",
