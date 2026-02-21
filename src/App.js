@@ -6,8 +6,7 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { emojiCursor } from 'cursor-effects';
-import { useEffect } from 'react';
+
 import UpcomingShows from './pages/UpcomingShows';
 
 function App() {
