@@ -10,7 +10,7 @@ const UpcomingShows = () => {
                 <div className="show">
                     <h2>Street Nights</h2>
                     <p>Turn Turn Turn (Portland Oregon)</p>
-                    <p>w/ Eliot OK and SUnbathe / Strange PIlgrim (duo set)</p>
+                    <p>w/ Eliot OK and Sunbathe / Strange PIlgrim (duo set)</p>
                     <p style={{ marginBottom: "30px" }}>Saturday 2/26/26</p>
                     <a
 
