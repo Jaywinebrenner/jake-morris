@@ -33,7 +33,7 @@ const Work = () => {
             <div className="container">
                 <div className="work__wrapper">
                     <div className='drums-mobi'>
-                        <img src="/drums-mobi.jpg "/>
+                        <img src="/drums-mobi.jpg " alt="drumbs"/>
                     </div>
                     <div className='card-3d'>
                         <Scene/>

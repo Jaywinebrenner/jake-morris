@@ -18,7 +18,7 @@ const Services = () => {
                         </div>
     
                         <div className='right'>
-                            <img src="/modernjake.png"></img>
+                            <img src="/modernjake.png" alt="modern Jake"></img>
                         </div>
                     </div>
 

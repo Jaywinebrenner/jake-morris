@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="container logo-wrapper">
                         <h1>Jake Morris</h1>
                 </div>
-                <img src="/jake3.jpg"></img>
+                <img src="/jake3.jpg" alt="Jake Morris performing on a drum kit"></img>
             </div>
 
         </section>
