@@ -39,22 +39,29 @@ export default function UpcomingShows() {
             shows.map((s) => (
               <div className="show" key={s.id}>
                 <h2>{s.artist}</h2>
+
                 <p>
                   {s.venue} ({s.city})
                 </p>
+
                 {s.bill && <p>{s.bill}</p>}
+
                 <p style={{ marginBottom: "30px" }}>
-                  {new Date(s.date).toLocaleDateString(undefined, {
-                    weekday: "long",
-                    year: "2-digit",
-                    month: "numeric",
-                    day: "numeric",
-                  })}
+                  {new Date(s.date + "T12:00:00").toLocaleDateString(
+                    undefined,
+                    {
+                      weekday: "long",
+                      year: "2-digit",
+                      month: "numeric",
+                      day: "numeric",
+                    }
+                  )}
                 </p>
+
                 <a
                   className="button"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   href={s.url}
                 >
                   {s.venue}
