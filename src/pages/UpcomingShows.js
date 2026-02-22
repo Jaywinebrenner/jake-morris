@@ -1,66 +1,68 @@
+import { useEffect, useState } from "react";
+import { supabase } from "../lib/supabaseClient";
 
+export default function UpcomingShows() {
+  const [shows, setShows] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-const UpcomingShows = () => {
-    return (
-        <div className="upcoming-shows">
-            <div className="container">
-                <div className="show-wrapper">
+  useEffect(() => {
+    (async () => {
+      setLoading(true);
 
+      const { data, error } = await supabase
+        .from("shows")
+        .select("*")
+        .order("date", { ascending: true });
 
-                <div className="show">
-                    <h2>Street Nights</h2>
-                    <p>Turn Turn Turn (Portland Oregon)</p>
-                    <p>w/ Eliot OK and Sunbathe / Strange PIlgrim (duo set)</p>
-                    <p style={{ marginBottom: "30px" }}>Saturday 2/26/26</p>
-                    <a
+      if (error) {
+        console.error("Error loading shows:", error);
+        setShows([]);
+      } else {
+        setShows(data ?? []);
+      }
 
-                        className="button"
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://turnturnturnpdx.com/"
-                    >
-                        Turn Turn Turn
-                    </a>
-                </div>
+      setLoading(false);
+    })();
+  }, []);
 
-                <div className="show">
-                    <h2>Street Nights</h2>
-                    <p>Revolution Hall (Portland Oregon)</p>
-                    <p>Main Support for Pavement</p>
-                    <p style={{ marginBottom: "30px" }}>Saturday 7/18/26</p>
-                    <a
+  return (
+    <div className="upcoming-shows">
+      <div className="container">
+        <div className="show-wrapper">
+          {loading && <p>Loading shows…</p>}
 
-                        className="button"
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.revolutionhall.com/"
-                    >
-                        Revolution Hall
-                    </a>
-                </div>
-                <div className="show">
-                    <h2>Street Nights</h2>
-                    <p>Woodland Park Zoo (Seattle, Washington)</p>
-                    <p>Main Support for Pavement</p>
-                    <p style={{ marginBottom: "30px" }}>Sunday 7/19/26</p>
-                    <a
+          {!loading && shows.length === 0 && (
+            <p>No upcoming shows posted yet.</p>
+          )}
 
-                        className="button"
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://zoo.org/zootunes/"
-                    >
-                        Woodland Park Zoo
-                    </a>
-                </div>
-
-
-                </div>
-
-            </div>
-
+          {!loading &&
+            shows.map((s) => (
+              <div className="show" key={s.id}>
+                <h2>{s.artist}</h2>
+                <p>
+                  {s.venue} ({s.city})
+                </p>
+                {s.bill && <p>{s.bill}</p>}
+                <p style={{ marginBottom: "30px" }}>
+                  {new Date(s.date).toLocaleDateString(undefined, {
+                    weekday: "long",
+                    year: "2-digit",
+                    month: "numeric",
+                    day: "numeric",
+                  })}
+                </p>
+                <a
+                  className="button"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={s.url}
+                >
+                  {s.venue}
+                </a>
+              </div>
+            ))}
         </div>
-    )
+      </div>
+    </div>
+  );
 }
-
-export default UpcomingShows;

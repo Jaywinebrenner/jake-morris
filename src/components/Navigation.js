@@ -1,35 +1,35 @@
-import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom'; 
+import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
 
-function Navigation() {
-    const location = useLocation(); 
-    const isHomePage = location.pathname === '/';
+export default function Navigation() {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
-    return (
-        <section className={`navigation ${isHomePage ? 'home-page' : ''}`}>
-            <div className='container'>
+  const linkClass = ({ isActive }) =>
+    `img-link-wrapper${isActive ? " active" : ""}`;
 
-                <NavLink exact to="/" className="img-link-wrapper" activeClassName="active">
-                    HOME
-                </NavLink>
-                <NavLink to="/about" className="img-link-wrapper" activeClassName="active">
-                    ABOUT
-                </NavLink>
-                <NavLink to="/work" className="img-link-wrapper" activeClassName="active">
-                    WORK
-                </NavLink>
-                <NavLink to="/services" className="img-link-wrapper" activeClassName="active">
-                    I WILL DRUM 4 U
-                </NavLink>
-                <NavLink to="/upcoming-shows" className="img-link-wrapper" activeClassName="active">
-                    UPCOMING SHOWS
-                </NavLink>
-                <NavLink to="/contact" className="img-link-wrapper" activeClassName="active">
-                    CONTACT
-                </NavLink>
-            </div>
-        </section>
-    );
+  return (
+    <section className={`navigation ${isHomePage ? "home-page" : ""}`}>
+      <div className="container">
+        <NavLink to="/" end className={linkClass}>
+          HOME
+        </NavLink>
+        <NavLink to="/about" className={linkClass}>
+          ABOUT
+        </NavLink>
+        <NavLink to="/work" className={linkClass}>
+          WORK
+        </NavLink>
+        <NavLink to="/services" className={linkClass}>
+          I WILL DRUM 4 U
+        </NavLink>
+        <NavLink to="/upcoming-shows" className={linkClass}>
+          UPCOMING SHOWS
+        </NavLink>
+        <NavLink to="/contact" className={linkClass}>
+          CONTACT
+        </NavLink>
+      </div>
+    </section>
+  );
 }
-
-export default Navigation;
