@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping Supabase
         run: |
-          curl -f -s https://itfuxxajrvqatumlnogg.supabase.co/rest/v1/ > /dev/null
+          curl -f -s https://itfuxxajrvqatumlnogg.supabase.co > /dev/null
